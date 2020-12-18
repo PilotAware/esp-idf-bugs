@@ -1,7 +1,7 @@
 # to build
 $ make build flash
 
-# flash and monitor (saved in monitor.0.txt)
+# flash and monitor (saved in monitor.0.log)
 $ make monitor
 
 # connect a station to esp32 SSID TestSSID
@@ -20,7 +20,7 @@ I (30763) wifi softAP:     [0]: 000F00E1D48F 192.168.4.2
 # reboot esp32 device 2 methods described
 # method 1
 #     type CTRL']' in monitor
-#     now reconnect monitor (saved in monitor.1.txt)
+#     now reconnect monitor (saved in monitor.1.log)
 $ make monitor
 
 
